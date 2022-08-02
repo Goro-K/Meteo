@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/3193aa2f7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Meteo</title>
+</head>
+
+    <body class="taille">
+        <div class="content">
+            <div class="row justify-content-center">
+                <div class="col-12 cool-sm-6 my-3">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputCity">
+                            <button class="btn btn-primary" type="button">Rechercher</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="grid text-center">
+                    <div class="g-col-6 box city"></div>
+                    <div class="g-col-6 box weather"></div>
+                  
+                    <div class="g-col-6 box humidity"></div>
+                    <div class="g-col-6 box wind"></div>
+                  </div>
+            </div>
+        </div>
+        <script src="./js/meteo.js" type = "module"></script>
+    </body>
+</html>
